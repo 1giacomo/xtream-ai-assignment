@@ -1,5 +1,52 @@
 # xtream AI Challenge
 
+## Ready Player 1? 🚀
+
+Hey there! If you're reading this, you've already aced our first screening. Awesome job! 👏👏👏
+
+Welcome to the next level of your journey towards the [xtream](https://xtreamers.io) AI squad. Here's your cool new assignment.
+
+Among the datasets described below, pick **just one** that catches your eye. Each dataset comes with its own set of challenges. Don't stress about doing them all. Just dive into the ones that spark your interest or that you feel confident about. Let your talents shine bright! ✨
+
+Take your time – you've got **10 days** to show us your magic, starting from when you get this. No rush, work at your pace. If you need more time, just let us know. We're here to help you succeed. 🤝
+
+### What You Need to Do
+
+Think of this as a real-world project. Fork this repo and treat it as if you're working on something big! When the deadline hits, we'll be excited to check out your work. No need to tell us you're done – we'll know. 😎
+
+🚨 **Heads Up**: You might think the tasks are a bit open-ended or the instructions aren't super detailed. That’s intentional! We want to see how you creatively make the most out of the data and craft your own effective solutions.
+
+🚨 **Remember**: At the end of this doc, there's a "How to run" section left blank just for you. Please fill it in with instructions on how to run your code – it's important!
+
+### How We'll Evaluate Your Work
+
+We'll be looking at a bunch of things to see how awesome your work is, like:
+
+* Your approach and method
+* How well you get the business problem
+* Your understanding of the data
+* The clarity and completeness of your findings
+* How you use your tools (like git and Python packages)
+* The neatness of your code
+* The clarity of your documentation
+
+🚨 **Keep This in Mind**: This isn't about building the fanciest model: we're more interested in your process and thinking.
+
+## Special Note for Interns
+
+If you're aiming for an internship, focus **only on Challenges 1 and 2** for the dataset you choose.
+
+We'll mainly look at:
+
+* Your workflow
+* How well you understand the problem and data
+* The approach to the analysis and clarity of your conclusions
+* How neat your code is (relative to your experience level)
+
+This is your chance to showcase your unique approach and thought process. Don't worry if your code isn't perfect or your model isn't top-notch yet. We've been in your shoes and are here to help you grow. 🌟
+
+---
+
 ### Diamonds
 
 **Problem type**: Regression
