@@ -35,4 +35,62 @@ Create another Jupyter notebook where you develop and evaluate your model.
 ---
 
 ## How to run
-Please fill this section as part of the assignment.
+
+### Google Colab (Recommended)
+
+Both notebooks are on Google Colab ready to run.
+
+* [Challenge 1](https://colab.research.google.com/drive/1wkIHYESKVFetaFaZ9ZWnE3EZC6939grY)
+* [Challenge 2](https://colab.research.google.com/drive/1ty0Bml_yJkIVHd5-rGTN3MOUnqgRRQ5J)
+
+### Run local
+
+If you prefer to run local in your virtual environment you can do it by:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/1giacomo/xtream-ai-assignment.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd xtream-ai-assignment
+```
+
+3. Create you Virtual Environment:
+```bash
+python -m venv ./venv
+```
+
+4. Activate the Virtual Environment:
+```bash
+source venv/bin/activate
+```
+
+5. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+6. Before running the files, remove this block of code:
+```bash
+# REMOVE THIS BLOCK IF YOU RUN LOCAL
+
+# Clone the dataset from Github
+!git clone https://github.com/1giacomo/xtream-ai-assignment.git
+
+# Load the dataset from the .csv file
+diamonds = pd.read_csv("./xtream-ai-assignment/datasets/diamonds/diamonds.csv")
+```
+
+Instead uncomment the second block like this:
+```bash
+# UNCOMMENT THIS BLOCK IF YOU RUN LOCAL
+
+# Load the dataset from the .csv file
+diamonds = pd.read_csv("./datasets/diamonds/diamonds.csv")
+```
+Do it for both the notebooks.
+
+8. Run the notebooks.
