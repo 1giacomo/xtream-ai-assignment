@@ -1,3 +1,5 @@
+import pandas as pd
+
 def clean_data(df):
     cleaned_df = df[
         (df['price'] > 0) &
@@ -8,7 +10,7 @@ def clean_data(df):
     ]
     return cleaned_df
 
-def encode_categorical_variables(df):
+def linear_encoding(df):
     cut_mapping_dict = {
         "Ideal": 4,
         "Premium": 3,
@@ -35,4 +37,7 @@ def encode_categorical_variables(df):
     return df
 
 def drop_columns(df):
-    return df.drop(['x', 'y', 'z'], axis=1)
+    return df.drop(['x', 'y', 'z', 'depth', 'table'], axis=1)
+
+def hot_key_encoding(df):
+    return pd.get_dummies(df, columns=['cut', 'color', 'clarity'])
